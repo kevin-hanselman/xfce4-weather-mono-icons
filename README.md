@@ -1,10 +1,26 @@
 xfce4-weather-mono-icons
 ========================
 
-"Mono-Dark icons for xfce4-weather-plugin" by Golan77 with Mono-Light icons added by me
+A mirror of ["Mono-Dark icons for xfce4-weather-plugin" by Golan77](http://golan77.deviantart.com/art/Mono-Dark-icons-for-xfce4-weather-plugin-337247416) with a "Mono-Light" variation added by me.
 
-License Fulfillment
-===================
+## Installation
+
+```
+$ cp -a WSky* /usr/share/xfce4/weather/icons
+```
+Then select one of the icon themes from the applet preferences.
+
+## Create a custom color icon set
+
+Run the provided script. You must have [imagemagick](http://www.imagemagick.org/) installed. **The script will change PNGs in place, so be careful not to overwrite important things.**
+
+Example:
+```
+$ cp -a WSky WSky-Red
+$ ./change-png-color.sh WSky-Red 992211
+```
+
+## License Fulfillment
 
 ```
 Copyright (C) 2012-2014 Golan77
@@ -24,8 +40,7 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 ```
 
-Changes
--------
+### Changes
 
 Wed May  7 15:48:32 EDT 2014:
 
