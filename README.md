@@ -3,6 +3,9 @@ xfce4-weather-mono-icons
 
 A mirror of ["Mono-Dark icons for xfce4-weather-plugin" by Golan77](http://golan77.deviantart.com/art/Mono-Dark-icons-for-xfce4-weather-plugin-337247416) with a "Mono-Light" variation added by me.
 
+Screenshot of WSky-Light in an Xfce Panel:
+![alt tag](https://raw.githubusercontent.com/kevlar1818/xfce4-weather-mono-icons/master/WSky-Light_Example.png)
+
 ## Installation
 
 ```
